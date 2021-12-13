@@ -17,3 +17,5 @@
 >> Random Password Generator shall allow user to toggle the use of alphabetical characters.
 
 >> Random Password Generator shall never regenerate the same password more than once.
+
+>> Random Password Generator shall allow user to give characters to be omitted.
