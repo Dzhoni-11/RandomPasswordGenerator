@@ -1,4 +1,3 @@
-#include <algorithm>
 #include <ctime>
 #include <cstdlib>
 
@@ -37,7 +36,8 @@ void RandCharGen::Init(uint8_t numOfChars,
                        bool enableAlphaChars,
                        std::string omitTheseChars)
 {
-    m_SizeOfPassword = numOfChars;
+    if (numOfChars > MIN_PASSWORD_LENGTH && numOfChars < MAXX_PASSWORD_LENGTH)
+        m_SizeOfPassword = numOfChars;
 
     std::vector<uint16_t> omit(omitTheseChars.begin(), omitTheseChars.end());
 

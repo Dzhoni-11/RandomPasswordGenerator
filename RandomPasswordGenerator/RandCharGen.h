@@ -30,6 +30,7 @@ private:
     void LoadLetterRanges(std::vector<uint16_t>);
 
     uint8_t MIN_PASSWORD_LENGTH{ 8 };
+    uint8_t MAXX_PASSWORD_LENGTH{ 16 };
 
     uint8_t m_SizeOfPassword{ MIN_PASSWORD_LENGTH };
 

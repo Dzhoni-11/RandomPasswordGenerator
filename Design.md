@@ -63,7 +63,6 @@ Characters need to be generated, and this is done by GenrateChar() function.
 
 Function body makes use of the following STD libraries
 ```
-<algorithm>    // std::generate
 <ctime>        // std::time
 <cstdlib>      // std::rand, std::srand
 ```
