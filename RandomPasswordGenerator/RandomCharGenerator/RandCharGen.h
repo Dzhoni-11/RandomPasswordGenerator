@@ -22,7 +22,7 @@ public:
     RandCharGen(void);
     ~RandCharGen(void);
 
-    /* uint8_t: password size,
+    /* uint8_t: password length,
        bool: enable special characters
        bool: enable numeral characters
        bool: enable alphabetical characters
@@ -39,7 +39,7 @@ private:
     void LoadSpecialRanges(std::vector<uint16_t>);
     void LoadLetterRanges(std::vector<uint16_t>);
 
-    uint8_t MIN_PASSWORD_LENGTH{ 8 };
+    uint8_t MIN_PASSWORD_LENGTH{ 4 };
     uint8_t MAXX_PASSWORD_LENGTH{ 16 };
 
     uint8_t m_SizeOfPassword{ MIN_PASSWORD_LENGTH };
