@@ -44,7 +44,7 @@ The Init() function has 5 parameters.
 - Init() - void of return
 	- - Accesss Public
 	- Parameter 1: NumOfChars - uint8_t
-		- Default: 8
+		- Default: 4
 	- Parameter 2: EnableSpecChars - bool
 		- Default: true
 	- Parameter 3: EnableNumChars - bool
