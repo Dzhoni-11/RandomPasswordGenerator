@@ -1,4 +1,6 @@
-**Console Requirements**
+# Console
+
+## Requirements
 
 > Console shall parse arguments based on supported commands from Random Password Generator Command Table.
 
