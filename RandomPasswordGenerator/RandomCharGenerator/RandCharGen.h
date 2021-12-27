@@ -9,6 +9,16 @@
 class RandCharGen
 {
 public:
+
+    struct RandomPaswordStruct
+    {
+        uint8_t passwordSize = 0;
+        bool enableSpecial = true;
+        bool enableNumeral = true;
+        bool enableAlphabt = true;
+        std::string omitChars = "";
+    };
+
     RandCharGen(void);
     ~RandCharGen(void);
 
@@ -40,3 +50,4 @@ private:
 };
 
 #endif
+
